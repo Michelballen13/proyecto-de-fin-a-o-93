@@ -6,7 +6,7 @@ import pruebaRouter from './routes/pruebaRoutes.js';
 import authRouter from './routes/authRouter.js';
 import connectDB from './config/db.js'
 
-
+//leer del env
 dotenv.config()
 
 connectDB()
